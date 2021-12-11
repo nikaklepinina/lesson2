@@ -1,0 +1,17 @@
+/*В css-файле для тегов table, td и th напишите следующий код:
+border: 1px solid #000; (обратите внимание на то, что запятые отсутствуют, иначе border не сработает);
+Также, отдельно для тега table напишите - border-collapse: collapse;
+И отдельно для ячеек таблицы (th, td) напишите padding: 5px. */
+
+
+table, td, th {
+    border: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
